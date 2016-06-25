@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|center_vertical"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/my_nanodegree_apps"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_popular_movies"
+        style="@style/ButtonTheme"
+        android:text="@string/popular_movies" />
+
+    <Button
+        android:id="@+id/btn_stock_hawk"
+        style="@style/ButtonTheme"
+        android:text="@string/stock_hawk" />
+
+    <Button
+        android:id="@+id/btn_build_it_bugger"
+        style="@style/ButtonTheme"
+        android:text="@string/build_it_bugger" />
+
+    <Button
+        android:id="@+id/btn_make_your_app_material"
+        style="@style/ButtonTheme"
+        android:text="@string/make_your_app_material" />
+
+    <Button
+        android:id="@+id/btn_go_ubuquitous"
+        style="@style/ButtonTheme"
+        android:text="@string/go_ubuquitous" />
+
+    <Button
+        android:id="@+id/btn_capstone"
+        style="@style/ButtonTheme"
+        android:text="@string/capstone" />
+</LinearLayout>
+
